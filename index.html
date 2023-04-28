@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Jay Travel</title>
+
+    <style>
+        .jay-travel-logo{
+            color: rgb(255, 94, 0);
+            font-size: 30px;
+            padding-left: 50px;
+        }
+
+        .nav-heder-active{
+            color: rgb(255, 94, 0);
+            padding-left: 50px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .nav-heder-item{
+            color: rgb(255, 255, 255);
+            padding-left: 20px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .header-text{
+            color: rgb(255, 94, 0);
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .dest-card-title{
+            text-align: center;
+        }
+
+        .team-para{
+            text-align: center;
+        }
+
+        .team-card-title{
+            text-align: center;
+        }
+
+        .pannel-numbers{
+            font-family: 'Pacifico', cursive;
+            color: rgb(255, 94, 0);
+        }
+
+        .overhead-card{
+            text-align: center;
+        }
+
+        .submit-signin{
+            width: 250px;
+        }
+
+        .footer-item{
+            color: white;
+            padding-bottom: 10px;
+        }
+
+        .footer-item-hed{
+            color: white;
+            padding-bottom: 20px;
+        }
+
+        .footer-body{
+            background-color: rgb(11, 5, 43);
+        }
+
+        .copyright{
+            background-color: black;
+        }
+
+        .copyright-text{
+            color: white;
+            text-align: center;
+        }
+
+        .footer-icon{
+            color: rgb(255, 94, 0);
+        }
+
+    </style>
+</head>
+<body>
+<!-- Header -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">             
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark static-top">
+                    <div class="container">
+                        <div class="container-fluid">  
+                            <a class="nav-link jay-travel-logo" href = "#"> JAY TOURS </a>  
+                        </div> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav pe-5">  
+                                <li class ="nav-item">  
+                                    <a class="nav-heder-active" href = "index.html"> HOME </a>  
+                                </li>  
+                                <li class="nav-item">  
+                                    <a class="nav-heder-item" href = "about-us.html"> ABOUT </a>  
+                                </li>  
+                                <li class="nav-item">  
+                                    <a class="nav-heder-item" href = "services.html"> SERVICES </a>  
+                                </li>  
+                                <li class="nav-item">  
+                                    <a class="nav-heder-item" href = "#"> TESTIMONIALS </a>  
+                                </li>  
+                                <li class="nav-item">  
+                                    <a class="nav-heder-item" href = "#"> PORTFOLIO </a>  
+                                </li>  
+                                <li class="nav-item">  
+                                    <a class ="nav-heder-item" href = "#"> CONTACTS </a>  
+                                </li> 
+                            </ul>  
+                        </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- Main -->
+
+    <main>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Images/main.jpg" class="d-block w-100" alt="...">
+                          </div>                          
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid p-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="header-text">TOP DESTINATIONS</h1>
+                    <div class="card-group">
+                        <div class="card m-3 border-0">
+                            <div class="card-body">
+                                <h5 class="card-title dest-card-title">Sri Lanka</h5>
+                            </div>
+                            <img src="Images/Top Destinations/Sri Lanka.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card m-3 border-0">
+                            <div class="card-body">
+                                <h5 class="card-title dest-card-title">Rome</h5>
+                            </div>
+                            <img src="Images/Top Destinations/Rome.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card m-3 border-0">
+                            <div class="card-body">
+                                <h5 class="card-title dest-card-title">Maldives</h5>
+                            </div>
+                            <img src="Images/Top Destinations/Maldives.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card m-3 border-0">
+                            <div class="card-body">
+                                <h5 class="card-title dest-card-title">Switzerland</h5>
+                            </div>
+                            <img src="Images/Top Destinations/Switzerland.jpg" class="card-img-top" alt="...">
+                          </div>
+                          <div class="card m-3 border-0">
+                            <div class="card-body">
+                                <h5 class="card-title dest-card-title">Thailand</h5>
+                            </div>
+                            <img src="Images/Top Destinations/Thailand.jpg" class="card-img-top" alt="...">
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid p-4">
+            <div class="row">
+                <div class="col-md-12 p-5">
+                    <h1 class="header-text">OUR TEAM LEADS</h1>
+                    <h5 class="team-para">Teamwork is the ability to work together toward a common vision. The ability to direct <br>individual accomplishments toward organizational objectives. It is the fuel that allowa<br>common people to attain uncommon results.</h5>
+                    <div class="card-group">
+                        <div class="card m-3 border-0">
+                            <img src="Images/Team Leaders/Hugo Silva.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title team-card-title">Hugo Silva</h5>
+                            </div>
+                        </div>
+                        <div class="card m-3 border-0">
+                            <img src="Images/Team Leaders/Imanoli Arias.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title team-card-title">Imanoli Arias</h5>
+                            </div>
+                        </div>
+                        <div class="card m-3 border-0">
+                            <img src="Images/Team Leaders/Javier Bardem.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title team-card-title">Javier Bardem</h5>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid" style="background-color: black;">
+            <div class="row">
+                <div class="col-md-12 p-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-3">
+                          <h1 class="d-flex justify-content-center pannel-numbers">250k +</h1>
+                          <h6 class="d-flex justify-content-center text-light">HAPPY CLIENTS</h6>
+                        </div>
+                        <div class="col-md-3">
+                          <h1 class="d-flex justify-content-center pannel-numbers">800</h1>
+                          <h6 class="d-flex justify-content-center text-light">WEEKLY RESERVATION</h6>
+                        </div>
+                        <div class="col-md-3">
+                          <h1 class="d-flex justify-content-center pannel-numbers">150</h1>
+                          <h6 class="d-flex justify-content-center text-light">TRAVEL PARTNER</h6>
+                        </div>
+                        <div class="col-md-3">
+                          <h1 class="d-flex justify-content-center pannel-numbers">15</h1>
+                          <h6 class="d-flex justify-content-center text-light">BRANCHES</h6>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid p-5">
+            <div class="row">
+                <h1 class="header-text">OVERHEAD FROM TRAVELERS</h1>
+                <div class="col-md 12 d-flex justify-content-center">
+                    <div class="card border-secondry m-3 overhead-card" style="max-width: 18rem;">
+                        <div class="card-header">Hotel Eucalyptus</div>
+                        <div class="card-body">
+                          <h5 class="card-title">in Greece</h5>
+                          <p class="card-text">"We booked Hotel Eucalyptus through Jay after reading a handful of reviews,and it was easily the best decision we made ...more"</p>
+                          <h5>- Joyce from Caneda</h5>
+                        </div>
+                        <div class="p-1 bg-primary"></div>
+                      </div>
+                      <div class="card border-secondry m-3" style="max-width: 18rem;">
+                        <div class="card-header">Holiday Inn Resort Batam</div>
+                        <div class="card-body">
+                          <h5 class="card-title">in Indonesia</h5>
+                          <p class="card-text">"Thanks Jay for letting me change room without charge and rebate the difference. Nice staffs Agoda and Hodiday Inn!"</p>
+                          <h5>- Andy from Singapore</h5>
+                        </div>
+                        <div class="p-1 bg-primary"></div>
+                      </div>
+                      <div class="card border-secondry m-3" style="max-width: 18rem;">
+                        <div class="card-header">Hotel Granvia Kyoto</div>
+                        <div class="card-body">
+                          <h5 class="card-title">in japan</h5>
+                          <p class="card-text">"Our family wsa traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that ...more"</p>
+                          <h5>- Diane from the United States</h5>
+                        </div>
+                        <div class="p-1 bg-primary"></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid pb-5">
+            <div class="row">
+                <h1 class="header-text p-4">CONTACTS</h1>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div class="col-md-7">
+                        <form class="row g-3" action="#" onsubmit="return validateForm()" method="post" name="contact">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                            </div>
+                            <div class="col-12">
+                                <input type="email" class="form-control" id="email" placeholder="Address">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" id="telephone" placeholder="Telephone">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div>
+                                    <div class="col-12 p-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                            Subscribe to our newsletter
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-3">
+                                        <button type="submit" class="btn btn-primary submit-signin">Sign in</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- Footer -->
+    <footer>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 footer-body">
+                    <div class="d-flex justify-content-center p-5">
+                        <div class="p-5">
+                            <h5 class="footer-item-hed">HELP</h5>
+                            <div>
+                                <div class="footer-item">Help Center</div>
+                                <div class="footer-item">FAQs</div>
+                                <div class="footer-item">Terms of Use</div>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="footer-item-hed">ABOUT US</h5>
+                            <div>
+                                <div class="footer-item">Blog</div>
+                                <div class="footer-item">Careers</div>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="footer-item-hed">DESTINATIONS</h5>
+                            <div>
+                                <div class="footer-item">Countries</div>
+                                <div class="footer-item">Cities</div>
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="footer-item-hed">PARTNER WITH US</h5>
+                            <div>
+                                <div class="footer-item">Properties</div>
+                                <div class="footer-item">Affiliates</div>
+                            </div>
+                        </div>
+                        <div class="col ps-5 pt-3">
+                            <div>
+                              <div class="d-flex">
+                                <i class="fa fa-phone me-4 footer-icon"></i>
+                                <div class="pb-2 footer-item">+94 112 875 965 <br> +94 115 879 568</div>
+                              </div>
+                              <div class="d-flex">
+                                <i class="fa fa-map-marker me-4 footer-icon"></i>
+                              <div class="pb-2 footer-item">No.056,<br>Havlock town,<br>Colombo 05,<br>Sri lanka</div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 copyright p-3">
+                    <p class="copyright-text">Copyright &copy; 2020 - SLIIT WEB DEVELOPMENT - All right reserved</p>
+                </div>
+            </div>
+        </section>
+        
+    </footer>
+
+<!--Scripty-->
+
+<script>
+    function validateForm() {
+      let firstname= document.forms["contact"]["firstname"].value;
+      if (firstname == "") {
+        alert("First Name cannot be Empty");
+        return false;
+      }
+
+      let lastname = document.forms["contact"]["lastname"].value;
+      if (lastname == "") {
+        alert("Last Name cannot be Empty");
+        return false;
+      }
+
+      let email = document.forms["contact"]["email"].value;
+      if (email == "") {
+        alert("Email cannot be Empty");
+        return false;
+      }
+      
+      let telephone = document.forms["contact"]["telephone"].value;
+      if (telephone == "") {
+        alert("Phone number cannot be Empty");
+        return false;
+      }
+    }
+  </script>
+
+
+    
+
+</body>
+</html>
